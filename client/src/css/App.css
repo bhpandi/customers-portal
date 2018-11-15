@@ -1,0 +1,19 @@
+@import "~antd/dist/antd.css";
+.ant-layout-header .logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px 24px 16px 0;
+}
+
+.anticon-right.arrow {
+    right: 10px;
+}
+
+.ant-collapse>.ant-collapse-item>.ant-collapse-header {
+    padding-left: 16px;
+}
+
+.ant-collapse>.ant-collapse-item>.ant-collapse-header .arrow {
+    left: unset;
+}
