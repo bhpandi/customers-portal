@@ -1,7 +1,6 @@
 import React from "react";
 import Profile from "./Profile";
 import { Layout } from "antd";
-
 const { Header, Content, Footer } = Layout;
 
 const Home = props => {
@@ -10,13 +9,13 @@ const Home = props => {
       <Header>
         <div className="logo" />
       </Header>
-      <Content style={{ padding: "0 50px" }}>
-        <div style={{ background: "#fff", padding: 24, minHeight: 280 }}>
+      <Content>
+        <div className="profile-container" style={{}}>
           <Profile orderDetails={props.orderDetails} />
         </div>
       </Content>
       <Footer style={{ textAlign: "center" }}>
-        Ant Design ©2018 Created by Ant UED
+        E-commerce customer portal ©2018 Created by Bharath
       </Footer>
     </Layout>
   );

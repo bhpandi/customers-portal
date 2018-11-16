@@ -2,10 +2,10 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 5000;
 
-// app.get("/default/testOrder", (req, res) => {
-//   res.send(res);
-//   //console.log(res);
-// });
+app.get("/default/testOrder", (req, res) => {
+  res.send(res);
+  //console.log(res);
+});
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "client/build")));

@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import Home from "./components/home";
-import searchApi from "./components/utils/Api";
-
-import "./css/App.css";
+import searchApi from "./utils/Api";
+import "./css/App.scss";
 
 class App extends Component {
   state = {
