@@ -10,14 +10,11 @@
     "react-scripts": "2.1.1"
   },
   "proxy": "https://gm50ml1rtc.execute-api.ap-southeast-1.amazonaws.com",
-  "homepage": "https://bhpandi.github.io/customers-profile",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
